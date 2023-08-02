@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Desarrollador de Software</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Estilos CSS personalizados -->
+</head>
+<body>
+    <header>
+        <h1>Tu Nombre</h1>
+        <h2>Desarrollador de Software</h2>
+    </header>
+    
+    <nav>
+        <!-- Barra de navegación, enlaces a diferentes secciones de la página -->
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <!-- Descripción sobre ti -->
+            <h2>Sobre mí</h2>
+            <p>Hola, soy un apasionado desarrollador de software con experiencia en el desarrollo de aplicaciones web y móviles. Me encanta enfrentar nuevos desafíos y aprender nuevas tecnologías.</p>
+        </section>
+
+        <section id="proyectos">
+            <!-- Proyectos destacados -->
+            <h2>Proyectos Destacados</h2>
+            <div class="proyecto">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción breve del proyecto. Tecnologías utilizadas: HTML, CSS, JavaScript, etc.</p>
+                <a href="enlace-del-proyecto" target="_blank">Ver Proyecto</a>
+            </div>
+            <div class="proyecto">
+                <h3>Nombre del Proyecto 2</h3>
+                <p>Descripción breve del proyecto. Tecnologías utilizadas: React, Node.js, etc.</p>
+                <a href="enlace-del-proyecto" target="_blank">Ver Proyecto</a>
+            </div>
+            <!-- Agrega más proyectos aquí -->
+        </section>
+
+        <section id="habilidades">
+            <!-- Lista de habilidades -->
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li>Lenguajes de Programación: JavaScript, Python, Java</li>
+                <li>Frameworks: React, Django, Spring Boot</li>
+                <li>Bases de Datos: MySQL, MongoDB</li>
+                <li>Desarrollo Frontend: HTML, CSS, Sass</li>
+                <li>Desarrollo Móvil: React Native, Android Studio</li>
+                <li>Control de Versiones: Git</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <!-- Formulario de contacto -->
+            <h2>Contacto</h2>
+            <p>¡Si deseas comunicarte conmigo o tienes alguna pregunta, no dudes en hacerlo! Estoy disponible para colaboraciones y nuevas oportunidades laborales.</p>
+            <form action="enviar-email.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Información de pie de página -->
+        <p>&copy; 2023 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
